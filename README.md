@@ -7,11 +7,9 @@ The project will focus on improving the credit risk management framework of a ba
 PROJECT WORKFLOW
 
 1. Data Preprocessing
-
 Data Cleaning : All the missing values in age column were replaced by mean and datatype changed to int.
 
 2. EDA AND FINANCIAL INSIGHTS
-   
 Visualisation : Using matlobplit.pyplot and seaborn to generate heatmap,histogram,countplot etc to find correlation between data and influence on default.
 Financial insights : The plots and patterns allowed us to understant how some key behavioral variables influence default risk.
 
