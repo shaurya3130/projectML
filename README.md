@@ -7,19 +7,21 @@ The project will focus on improving the credit risk management framework of a ba
 PROJECT WORKFLOW
 
 1. Data Preprocessing
+
 Data Cleaning : All the missing values in age column were replaced by mean and datatype changed to int.
 
-3. EDA AND FINANCIAL INSIGHTS
+2. EDA AND FINANCIAL INSIGHTS
+   
 Visualisation : Using matlobplit.pyplot and seaborn to generate heatmap,histogram,countplot etc to find correlation between data and influence on default.
 Financial insights : The plots and patterns allowed us to understant how some key behavioral variables influence default risk.
 
-4. FEATURE ENGINEERING
+3. FEATURE ENGINEERING
 Used some transformation techniques to generate some financially meaningful features like deliquency count,utilisation ratio and max delay.
 
-6. CLASS IMBALANCE
+4. CLASS IMBALANCE
 Handled using downsampling and class weighting
 
-8. MODEL TRAINING AND SELECTION
+5. MODEL TRAINING AND SELECTION
 Various classification models like logistic regression,decision tree,xgboost and lightgbm were trained.
 Based on the performance on evaluation metrics, XGBOOST was chosen as it had the best F2_SCORE;
 classification cutoff was set below its default value of 0.5.
