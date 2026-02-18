@@ -1,4 +1,4 @@
-Credit Card Behaviour Score Prediction
+CREDIT CARD SCORE PREDICTION
 
 OBJECTIVE
 
